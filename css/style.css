@@ -1,0 +1,55 @@
+/*-------------CSS Reset-------------*/
+
+*{
+padding:0;
+margin:0;
+font-size: 100%;
+line-height: 1em;
+}
+
+/*--------------Main Style----------*/
+body{
+  width:70%;
+  max-width: 670px;
+  margin: auto;
+  background: #fafafa;
+  color: #333;
+}
+
+/*---------------typography----------*/
+h1,h2,h3 {
+  font-weight: normal;
+  color: #FF5040;
+  text-align: center;
+
+}
+
+p,blockquote {margin-bottom: 1.5em;
+line-height:1.5;}
+
+h1 {font-size: 3.157em;
+margin-top: 1em;
+margin-bottom: 0.1em;}
+
+h2 {font-size: 2.369em;
+margin: 1em 0 }
+
+h3 {font-size: 1.777em;
+margin-bottom: 1.5em;}
+
+blockquote{
+  font-size: 1.2em;
+  hanging-punctuation: first;
+  text-indent: -0.44em;
+}
+blockquote cite{
+  font-size: 0.75em;
+}
+
+/*----------- footer----------*/
+
+footer{
+  text-align: center;
+  font-size: 0.7em;
+  padding: 2em 0 4em 0;
+}
