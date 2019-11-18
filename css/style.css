@@ -15,6 +15,7 @@ body{
   background: #fafafa;
   color: #333;
   font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -23,11 +24,15 @@ h1,h2,h3 {
   font-weight: normal;
   color: #FF5040;
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
+
 
 }
 
 p,blockquote {margin-bottom: 1.5em;
 line-height:1.5;}
+
+p {font-family: 'Open sans', sans-serif;}
 
 h1 {font-size: 3.157em;
 margin-top: 1em;
@@ -37,7 +42,8 @@ h2 {font-size: 2.369em;
 margin: 1em 0 }
 
 h3 {font-size: 1.777em;
-margin-bottom: 1.5em;}
+margin-bottom: 1.5em;
+font-style: italic;}
 
 blockquote{
   font-size: 1.2em;
@@ -54,4 +60,46 @@ footer{
   text-align: center;
   font-size: 0.7em;
   padding: 2em 0 4em 0;
+}
+/*-----------Link Style--------*/
+a{
+  color: #fafafa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #79E6FF;
+  border-bottom: 1px dotted;
+}
+
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #FF5040;
+  padding: 1em 0;
+}
+
+nav ul{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+nav ul li{
+  display: inline;
+  margin: 20px;
+
+}
+
+nav a:link{
+  color: #fafafa;
+}
+
+nav a:hover{
+  color: #79E6FF;
+
 }
