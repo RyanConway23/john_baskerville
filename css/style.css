@@ -60,6 +60,8 @@ footer{
   text-align: center;
   font-size: 0.7em;
   padding: 2em 0 4em 0;
+  color:  #FF5040;
+
 }
 /*-----------Link Style--------*/
 a{
@@ -81,13 +83,14 @@ nav{
   margin: 0;
   width: 100%;
   background-color: #FF5040;
-  padding: 1em 0;
+  padding: 0.3em 0;
 }
 
 nav ul{
-  text-align: center;
+text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 0.2em 0;
 }
 nav ul li{
   display: inline;
