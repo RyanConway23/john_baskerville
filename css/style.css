@@ -27,6 +27,10 @@ h1,h2,h3 {
   font-family: 'Libre Baskerville', serif;
 
 
+
+}
+header{
+  padding-top: 5em;
 }
 
 p,blockquote {margin-bottom: 1.5em;
@@ -57,10 +61,17 @@ blockquote cite{
 /*----------- footer----------*/
 
 footer{
+
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
   text-align: center;
+  background-color: #FF5040;
   font-size: 0.7em;
-  padding: 2em 0 4em 0;
-  color:  #FF5040;
+  padding: .5em 0 1em 0;
+  color:  #fafafa;
+
 
 }
 /*-----------Link Style--------*/
@@ -83,7 +94,9 @@ nav{
   margin: 0;
   width: 100%;
   background-color: #FF5040;
-  padding: 0.3em 0;
+  padding: 0.1em 0 0;
+  text-align: center;
+  max-height: 3em
 }
 
 nav ul{
@@ -92,9 +105,18 @@ text-align: center;
   letter-spacing: 2px;
 
 }
+
+/*------Smartphone------*/
+@media(max-width: 30em) {
+  body{
+    margin-left: auto 0;
+    width: 95%;
+    font-size: 135%;
+  }
+  
 nav ul li{
-  display: inline;
-  margin: 20px;
+  display: inline-table;
+  margin: 20px 0 ;
 
 }
 
@@ -107,13 +129,43 @@ nav a:hover{
 
 }
 
-section{ background-color: #000000;
+nav a{
+  font-weight: normal;
+  padding: 10px 5px;
+
+}
+
+section{
+position: static;
+text-align: center;
 color: #fafafa;
 width:100%;
 max-width: 670px;
-margin: auto;
-padding: 2em 0;
+margin: 0 0 0;
+padding: 1em 0.5em 1em 1em;
 }
+
+.main{
+  flex: 3;
+  padding-right: 1em;
+}
+
+aside {
+  flex: 1;
+  font-size: 0.75em;
+  font-style: italic;
+  border-left: 1px solid #333;
+  padding: 3em;
+}
+
+article{
+  display: flex;
+padding-right: 1em;}
+
+
+
+
+
 
 /*----------Table--------*/
 
@@ -124,12 +176,12 @@ table {
   border-spacing: 2px;
   margin-bottom; 2em;
   width: 100%;
-
 }
 
 caption {
   margin-bottom: 1.5em;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -147,9 +199,15 @@ td, th {
 }
 
 /*-----------Image------------*/
-.center {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
+  padding-bottom:1em;
+}
+
+
+
+
 }
