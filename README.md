@@ -17,5 +17,8 @@ https://github.com/RyanConway23/john_baskerville/blob/master/baskerville4.html
 Version 5:
 https://github.com/RyanConway23/john_baskerville/blob/master/baskerville5.html
 
+Version 6:
+https://github.com/RyanConway23/john_baskerville/blob/master/baskerville6.html
+
 History of Type:
 https://github.com/RyanConway23/john_baskerville/blob/master/historyoftype%20copy.html

@@ -74,6 +74,24 @@ footer{
 
 
 }
+
+.connections {
+  position: relative;
+  margin: 0 auto;
+}
+
+.connections ul{
+  margin: 0;
+  padding: 0;
+}
+
+.connections li{
+  margin: 0 15px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+}
 /*-----------Link Style--------*/
 a{
   color: #fafafa;
@@ -96,7 +114,7 @@ nav{
   background-color: #FF5040;
   padding: 0.1em 0 0;
   text-align: center;
-  max-height: 3em
+  max-height: 3em;
 }
 
 nav ul{
@@ -106,17 +124,10 @@ text-align: center;
 
 }
 
-/*------Smartphone------*/
-@media(max-width: 30em) {
-  body{
-    margin-left: auto 0;
-    width: 95%;
-    font-size: 135%;
-  }
-  
+
 nav ul li{
   display: inline-table;
-  margin: 20px 0 ;
+  margin: 20px ;
 
 }
 
@@ -138,7 +149,7 @@ nav a{
 section{
 position: static;
 text-align: center;
-color: #fafafa;
+color: black;
 width:100%;
 max-width: 670px;
 margin: 0 0 0;
@@ -207,7 +218,16 @@ img {
   padding-bottom:1em;
 }
 
-
-
-
+#icons {
+  color: #fafafa;
 }
+
+/*------Smartphone------*/
+@media(max-width: 30em) {
+
+  body{
+
+    margin-left: auto 0;
+    width: 95%;
+    font-size: 135%;
+  }
