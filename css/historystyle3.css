@@ -1,0 +1,38 @@
+/*-------------CSS Reset-------------*/
+
+*{
+padding:0;
+margin:0;
+font-size: 100%;
+line-height: 1em;
+}
+
+/*--------------Main Style----------*/
+body{
+  width:70%;
+  max-width: 670px;
+  margin: auto;
+  background: #fafafa;
+
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+/*---------------typography----------*/
+h1,h2,h3 {
+  font-weight: normal;
+  color: #FF5040;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+  h1 {font-size: 3.157em;
+  margin-top: 1.5em;
+  margin-bottom: 0.1em;}
+
+  h2 {font-size: 2.369em;
+  margin: 1em 0 }
+
+  h3 {font-size: 1.777em;
+  margin-bottom: 1.5em;
+  font-style: italic;}
