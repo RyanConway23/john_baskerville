@@ -22,3 +22,15 @@ https://github.com/RyanConway23/john_baskerville/blob/master/baskerville6.html
 
 History of Type:
 https://github.com/RyanConway23/john_baskerville/blob/master/historyoftype%20copy.html
+
+History of Type 2:
+https://github.com/RyanConway23/john_baskerville/blob/master/historyoftype2.html
+
+History of Type 3:
+https://github.com/RyanConway23/john_baskerville/blob/master/historyoftype3.html
+
+History of Type 4:
+https://github.com/RyanConway23/john_baskerville/blob/master/historyoftype4.html
+
+History of Type 5:
+https://github.com/RyanConway23/john_baskerville/blob/master/historyoftype5.html
